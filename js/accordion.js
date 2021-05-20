@@ -1,5 +1,5 @@
-const featureLinkElems = document.querySelectorAll('.feature__link');
-const featureSubElems = document.querySelectorAll('.feature-sub');
+const featureLinkElems = document.querySelectorAll('.feature__link'),
+      featureSubElems = document.querySelectorAll('.feature-sub');
 
 featureLinkElems.forEach((btn, index) => {
   btn.addEventListener('click' ,() =>{
